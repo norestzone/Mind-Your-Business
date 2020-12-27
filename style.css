@@ -65,3 +65,81 @@ html, body {
     top: 25%;
     left: 25%;
 }
+
+.phaseOne {
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/2.png");
+}
+
+.phaseTwoA {
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/3.png");
+}
+
+.phaseTwoB {
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/8.png");
+}
+
+.phaseThreeA {
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/4.png");
+}
+
+.phaseThreeB {
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/9.png");
+}
+
+.phaseFourA {
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/5.png");
+}
+
+.phaseFourB {
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/10.png");
+}
+
+.phaseFiveA {
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/6.png");
+}
+
+.phaseFiveB {
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/11.png");
+}
+
+.endResultWin {
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/7.png");
+}
+
+.endResultLose {
+    width: 1000px;
+    height: 1000px;
+    border: 2px solid black;
+    background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/12.png");
+}
+
