@@ -8,6 +8,8 @@ html, body {
     text-align: center;
 }
 
+/* Adjust placement of elements once game is functional */
+
 .gameBox {
     width: 1000px;
     height: 1000px;

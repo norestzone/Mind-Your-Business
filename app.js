@@ -7,13 +7,15 @@ function closePopUp(){
     introPopup.style.display="none";
 }
 
-// Begin both paths on Phase One
+// Begin both paths on Phase One when Let's Build is clicked
 
 // Good decision & bad decision selections will lead down different paths
 
 // Each phase will add or decrease the company valuation
 
 // Company valuation determines success level
+
+// Track player actions to prevent going through same scenario twice
 
 
 // Phase 1
@@ -75,7 +77,7 @@ const phaseThreeB = {
             text: "You've made a good decision!", destination: "Phase 3A"
         },
         badDecision: {
-            text: "Oof, bad choice bro...", destination: "Phase 4B"
+            text: "Oof, bad choice bro...", destination: "End Result Lose"
         }
         // Include valuation increase or decrease in each phase
     }
@@ -88,7 +90,7 @@ const phaseFourA = {
             text: "You've made a good decision!", destination: "Phase 5A"
         },
         badDecision: {
-            text: "Oof, bad choice bro...", destination: "Phase 4B"
+            text: "Oof, bad choice bro...", destination: "Phase 3B"
         }
         // Include valuation increase or decrease in each phase
     }
