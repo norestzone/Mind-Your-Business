@@ -17,6 +17,8 @@ function closePopUp(){
 
 // Track player actions to prevent going through same scenario twice
 
+// Have a starting investment capital of $______
+
 
 // Phase 1
 const phaseOne = {
@@ -28,6 +30,7 @@ const phaseOne = {
             text: "Oof, bad choice bro...", destination: "Phase 2B"
         }
         // Include valuation increase or decrease in each phase
+        // Deduct business expenses with each decision
     }
 }
 
@@ -41,6 +44,9 @@ const phaseTwoA = {
             text: "Oof, bad choice bro...", destination: "Phase 2B"
         }
         // Include valuation increase or decrease in each phase
+        // Deduct business expenses with each decision
+        // Add business capital as company profits
+
     }
 }
 
@@ -54,6 +60,8 @@ const phaseTwoB = {
             text: "Oof, bad choice bro...", destination: "Phase 3B"
         }
         // Include valuation increase or decrease in each phase
+        // Deduct business expenses with each decision
+        // Add business capital as company profits
     }
 }
 
@@ -67,6 +75,8 @@ const phaseThreeA = {
             text: "Oof, bad choice bro...", destination: "Phase 3B"
         }
         // Include valuation increase or decrease in each phase
+        // Deduct business expenses with each decision
+        // Add business capital as company profits
     }
 }
 
@@ -80,6 +90,8 @@ const phaseThreeB = {
             text: "Oof, bad choice bro...", destination: "End Result Lose"
         }
         // Include valuation increase or decrease in each phase
+        // Deduct business expenses with each decision
+        // Add business capital as company profits
     }
 }
 
@@ -93,6 +105,8 @@ const phaseFourA = {
             text: "Oof, bad choice bro...", destination: "Phase 3B"
         }
         // Include valuation increase or decrease in each phase
+        // Deduct business expenses with each decision
+        // Add business capital as company profits
     }
 }
 
@@ -106,6 +120,8 @@ const phaseFourB = {
             text: "Oof, bad choice bro...", destination: "Phase 5B"
         }
         // Include valuation increase or decrease in each phase
+        // Deduct business expenses with each decision
+        // Add business capital as company profits
     }
 }
 
@@ -119,6 +135,8 @@ const phaseFiveA = {
             text: "Oof, bad choice bro...", destination: "endResultWin"
         }
         // Include valuation increase or decrease in each phase
+        // Deduct business expenses with each decision
+        // Add business capital as company profits
     }
 }
 
@@ -132,6 +150,8 @@ const phaseFiveB = {
             text: "Oof, bad choice bro...", destination: "endResultLose"
         }
         // Include valuation increase or decrease in each phase
+        // Deduct business expenses with each decision
+        // Add business capital as company profits
     }
 }
 
