@@ -9,7 +9,7 @@ html, body {
     background-color: black;
 }
 
-/* Adjust placement of elements once game is functional */
+/* Adjust placement of elements once game is functional - DONE */
 
 .gameBox {
     position: absolute;
@@ -22,7 +22,7 @@ html, body {
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/Intro-Image.png");
 }
 
-.startGame {
+/* .startGame {
     width: 250px;
     height: 50px;
     background-color: black;
@@ -33,7 +33,7 @@ html, body {
     position: absolute;
     top: 25%;
     left: 25%;
-}
+} */
 
 #introPopup {
     position: absolute;
@@ -113,7 +113,7 @@ html, body {
 
 /* Change phase classes to IDs */
 
-.phaseTwoA {
+#phaseTwoA {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -125,7 +125,7 @@ html, body {
     visibility: hidden;
 }
 
-.phaseTwoB {
+#phaseTwoB {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -137,7 +137,7 @@ html, body {
     visibility: hidden;
 }
 
-.phaseThreeA {
+#phaseThreeA {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -149,7 +149,7 @@ html, body {
     visibility: hidden;
 }
 
-.phaseThreeB {
+#phaseThreeB {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -161,7 +161,7 @@ html, body {
     visibility: hidden;
 }
 
-.phaseFourA {
+#phaseFourA {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -173,7 +173,7 @@ html, body {
     visibility: hidden;
 }
 
-.phaseFourB {
+#phaseFourB {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -185,7 +185,7 @@ html, body {
     visibility: hidden;
 }
 
-.phaseFiveA {
+#phaseFiveA {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -197,7 +197,7 @@ html, body {
     visibility: hidden;
 }
 
-.phaseFiveB {
+#phaseFiveB {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -209,7 +209,7 @@ html, body {
     visibility: hidden;
 }
 
-.endResultWin {
+#endResultWin {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -221,7 +221,7 @@ html, body {
     visibility: hidden;
 }
 
-.endResultLose {
+#endResultLose {
     position: absolute;
     top: 50%;
     left: 50%;
