@@ -3,7 +3,7 @@
 }
 
 html, body {
-    margin: 50px;
+    margin: 0 auto;
     padding: 0;
     text-align: center;
 }
@@ -11,6 +11,10 @@ html, body {
 /* Adjust placement of elements once game is functional */
 
 .gameBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 1000px;
     height: 1000px;
     border: 2px solid black;
@@ -31,9 +35,6 @@ html, body {
 }
 
 #introPopup {
-    position: relative;
-    /* top: auto;
-    left: auto; */
     width: 100%;
     height: 100%;
     z-index: 1001;
@@ -68,80 +69,59 @@ html, body {
     left: 25%;
 }
 
-.phaseOne {
+/* All phases are currently stacked */
+
+.phaseOne, .phaseTwoA, .phaseTwoB, .phaseThreeA, .phaseThreeB, .phaseFourA, .phaseFourB, .phaseFiveA, .phaseFiveB, .endResultWin, .endResultLose {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 1000px;
     height: 1000px;
     border: 2px solid black;
+}
+
+.phaseOne {
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/2.png");
 }
 
 .phaseTwoA {
-    width: 1000px;
-    height: 1000px;
-    border: 2px solid black;
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/3.png");
 }
 
 .phaseTwoB {
-    width: 1000px;
-    height: 1000px;
-    border: 2px solid black;
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/8.png");
 }
 
 .phaseThreeA {
-    width: 1000px;
-    height: 1000px;
-    border: 2px solid black;
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/4.png");
 }
 
 .phaseThreeB {
-    width: 1000px;
-    height: 1000px;
-    border: 2px solid black;
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/9.png");
 }
 
 .phaseFourA {
-    width: 1000px;
-    height: 1000px;
-    border: 2px solid black;
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/5.png");
 }
 
 .phaseFourB {
-    width: 1000px;
-    height: 1000px;
-    border: 2px solid black;
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/10.png");
 }
 
 .phaseFiveA {
-    width: 1000px;
-    height: 1000px;
-    border: 2px solid black;
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/6.png");
 }
 
 .phaseFiveB {
-    width: 1000px;
-    height: 1000px;
-    border: 2px solid black;
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/11.png");
 }
 
 .endResultWin {
-    width: 1000px;
-    height: 1000px;
-    border: 2px solid black;
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/7.png");
 }
 
 .endResultLose {
-    width: 1000px;
-    height: 1000px;
-    border: 2px solid black;
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/12.png");
 }
 
