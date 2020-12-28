@@ -6,6 +6,7 @@ html, body {
     margin: 0 auto;
     padding: 0;
     text-align: center;
+    background-color: black;
 }
 
 /* Adjust placement of elements once game is functional */
@@ -100,48 +101,55 @@ html, body {
 
 .phaseOne {
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/2.png");
+    visibility: hidden;
 } */
 
 .phaseTwoA {
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/3.png");
+    visibility: hidden;
 }
 
 .phaseTwoB {
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/8.png");
+    visibility: hidden;
 }
 
 .phaseThreeA {
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/4.png");
+    visibility: hidden;
 }
 
 .phaseThreeB {
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/9.png");
+    visibility: hidden;
 }
 
 .phaseFourA {
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/5.png");
+    visibility: hidden;
 }
 
 .phaseFourB {
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/10.png");
+    visibility: hidden;
 }
 
 .phaseFiveA {
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/6.png");
+    visibility: hidden;
 }
 
 .phaseFiveB {
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/11.png");
+    visibility: hidden;
 }
 
 .endResultWin {
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/7.png");
+    visibility: hidden;
 }
 
 .endResultLose {
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/12.png");
-}
-
-#hidden {
-    display: none;
+    visibility: hidden;
 }
