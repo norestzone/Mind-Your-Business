@@ -9,6 +9,18 @@ function closePopUp(){
 
 // Begin both paths on Phase One when Let's Build is clicked
 
+document.addEventListener("DOMContentLoaded", (e) => {
+    startGame.addEventListener("click", showPopUp)
+
+})
+
+function showPopUp(){
+    let phaseOne = document.getElementById("phaseOne");
+    console.log(phaseOne);
+    phaseOne.style.visibility="visible";
+    console.log("I clicked the button!");
+}
+
 // Good decision & bad decision selections will lead down different paths
 
 // Each phase will add or decrease the company valuation
@@ -31,6 +43,7 @@ const phaseOne = {
         }
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision
+        // Hide phaseOne and make phaseTwo visible on button click
     }
 }
 
