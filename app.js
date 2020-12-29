@@ -187,4 +187,8 @@ let endResultWin = {
         // Show ending valuation and success level based on game stats
 }
 
+let endResultLose = {
+    // Show ending valuation and criticism from investors
+}
+
 // Allow option to restart game
