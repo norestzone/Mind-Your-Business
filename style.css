@@ -99,6 +99,21 @@ html, body {
     border: 2px solid black;
 } */
 
+#goodDecision, #badDecision {
+    width: 750px;
+    height: 75px;
+    background-color: black;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 12px;
+    border: 2px solid  black;
+}
+
+#badDecision {
+
+}
+
 #phaseOne {
     position: absolute;
     top: 50%;
@@ -106,6 +121,8 @@ html, body {
     transform: translate(-50%, -50%);
     width: 1000px;
     height: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
     border: 2px solid black;
     background-image: url("file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/MYB-Game-Images/2.png");
     visibility: hidden;

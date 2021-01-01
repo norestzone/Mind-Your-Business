@@ -69,8 +69,8 @@ const phaseTwoA = {
             text: "Oof, bad choice bro...", destination: phaseTwoB
         }
         // Include valuation increase or decrease in each phase
-        // Deduct business expenses with each decision
-        // Add business capital as company profits
+        // Deduct business expenses with each decision (STRETCH GOAL)
+        // Add business capital as company profits (STRETCH GOAL)
 
     }
 }
@@ -85,8 +85,8 @@ const phaseTwoB = {
             text: "Oof, bad choice bro...", destination: phaseThreeB
         }
         // Include valuation increase or decrease in each phase
-        // Deduct business expenses with each decision
-        // Add business capital as company profits
+        // Deduct business expenses with each decision (STRETCH GOAL)
+        // Add business capital as company profits (STRETCH GOAL)
     }
 }
 
@@ -100,8 +100,8 @@ const phaseThreeA = {
             text: "Oof, bad choice bro...", destination: "Phase 3B"
         }
         // Include valuation increase or decrease in each phase
-        // Deduct business expenses with each decision
-        // Add business capital as company profits
+        // Deduct business expenses with each decision (STRETCH GOAL)
+        // Add business capital as company profits (STRETCH GOAL)
     }
 }
 
@@ -115,8 +115,8 @@ const phaseThreeB = {
             text: "Oof, bad choice bro...", destination: endResultLose
         }
         // Include valuation increase or decrease in each phase
-        // Deduct business expenses with each decision
-        // Add business capital as company profits
+        // Deduct business expenses with each decision (STRETCH GOAL)
+        // Add business capital as company profits (STRETCH GOAL)
     }
 }
 
@@ -130,8 +130,8 @@ const phaseFourA = {
             text: "Oof, bad choice bro...", destination: phaseThreeB
         }
         // Include valuation increase or decrease in each phase
-        // Deduct business expenses with each decision
-        // Add business capital as company profits
+        // Deduct business expenses with each decision (STRETCH GOAL)
+        // Add business capital as company profits (STRETCH GOAL)
     }
 }
 
@@ -145,8 +145,8 @@ const phaseFourB = {
             text: "Oof, bad choice bro...", destination: phaseFiveB
         }
         // Include valuation increase or decrease in each phase
-        // Deduct business expenses with each decision
-        // Add business capital as company profits
+        // Deduct business expenses with each decision (STRETCH GOAL)
+        // Add business capital as company profits (STRETCH GOAL)
     }
 }
 
@@ -160,8 +160,8 @@ const phaseFiveA = {
             text: "Oof, bad choice bro...", destination: endResultWin
         }
         // Include valuation increase or decrease in each phase
-        // Deduct business expenses with each decision
-        // Add business capital as company profits
+        // Deduct business expenses with each decision (STRETCH GOAL)
+        // Add business capital as company profits (STRETCH GOAL)
     }
 }
 
@@ -175,8 +175,8 @@ const phaseFiveB = {
             text: "Oof, bad choice bro...", destination: endResultWin
         }
         // Include valuation increase or decrease in each phase
-        // Deduct business expenses with each decision
-        // Add business capital as company profits
+        // Deduct business expenses with each decision (STRETCH GOAL)
+        // Add business capital as company profits (STRETCH GOAL)
     }
 }
 
