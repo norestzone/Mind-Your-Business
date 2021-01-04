@@ -34,12 +34,14 @@ function showPopUp(){
 const phaseOne = {
     decisionOne: {
         goodDecision: {
-            text: "You've made a good decision!", destination: phaseTwoA
+            text: "You've made a good decision!", destination: "phaseTwoA"
         },
         badDecision: {
-            text: "Oof, bad choice bro...", destination: phaseTwoB
+            text: "Oof, bad choice bro...", destination: "phaseTwoB"
         }
         // Hide phaseOne and make phaseTwo visible on button click -- Refer to example function below
+        // If else statement? Use boolean for true or false based on selection?
+        // *************
         // document.addEventListener("DOMContentLoaded", (e) => {
         //     phaseOne.addEventListener("click", showPopUp)
         
@@ -51,7 +53,7 @@ const phaseOne = {
         //     phaseOne.style.visibility="visible";
         //     console.log("I clicked to Phase 2A!");
         // }
-
+        // *************
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision
     }
@@ -61,10 +63,10 @@ const phaseOne = {
 const phaseTwoA = {
     decisionTwoA: {
         goodDecision: {
-            text: "You've made a good decision!", destination: phaseThreeA
+            text: "You've made a good decision!", destination: "phaseThreeA"
         },
         badDecision: {
-            text: "Oof, bad choice bro...", destination: phaseTwoB
+            text: "Oof, bad choice bro...", destination: "phaseTwoB"
         }
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision (STRETCH GOAL)
@@ -77,10 +79,10 @@ const phaseTwoA = {
 const phaseTwoB = {
     decisionTwoB: {
         goodDecision: {
-            text: "You've made a good decision!", destination: phaseTwoA
+            text: "You've made a good decision!", destination: "phaseTwoA"
         },
         badDecision: {
-            text: "Oof, bad choice bro...", destination: phaseThreeB
+            text: "Oof, bad choice bro...", destination: "phaseThreeB"
         }
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision (STRETCH GOAL)
@@ -107,10 +109,10 @@ const phaseThreeA = {
 const phaseThreeB = {
     decisionThreeB: {
         goodDecision: {
-            text: "You've made a good decision!", destination: phaseThreeA
+            text: "You've made a good decision!", destination: "phaseThreeA"
         },
         badDecision: {
-            text: "Oof, bad choice bro...", destination: endResultLose
+            text: "Oof, bad choice bro...", destination: "endResultLose"
         }
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision (STRETCH GOAL)
@@ -122,10 +124,10 @@ const phaseThreeB = {
 const phaseFourA = {
     decisionFourA: {
         goodDecision: {
-            text: "You've made a good decision!", destination: phaseFiveA
+            text: "You've made a good decision!", destination: "phaseFiveA"
         },
         badDecision: {
-            text: "Oof, bad choice bro...", destination: phaseThreeB
+            text: "Oof, bad choice bro...", destination: "phaseThreeB"
         }
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision (STRETCH GOAL)
@@ -137,10 +139,10 @@ const phaseFourA = {
 const phaseFourB = {
     decisionFourB: {
         goodDecision: {
-            text: "You've made a good decision!", destination: phaseFourA
+            text: "You've made a good decision!", destination: "phaseFourA"
         },
         badDecision: {
-            text: "Oof, bad choice bro...", destination: phaseFiveB
+            text: "Oof, bad choice bro...", destination: "phaseFiveB"
         }
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision (STRETCH GOAL)
@@ -152,10 +154,10 @@ const phaseFourB = {
 const phaseFiveA = {
     decisionFiveA: {
         goodDecision: {
-            text: "You've made a good decision!", destination: endResultWin
+            text: "You've made a good decision!", destination: "endResultWin"
         },
         badDecision: {
-            text: "Oof, bad choice bro...", destination: endResultWin
+            text: "Oof, bad choice bro...", destination: "endResultWin"
         }
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision (STRETCH GOAL)
@@ -167,10 +169,10 @@ const phaseFiveA = {
 const phaseFiveB = {
     decisionFiveB: {
         goodDecision: {
-            text: "You've made a good decision!", destination: endResultWin
+            text: "You've made a good decision!", destination: "endResultWin"
         },
         badDecision: {
-            text: "Oof, bad choice bro...", destination: endResultWin
+            text: "Oof, bad choice bro...", destination: "endResultWin"
         }
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision (STRETCH GOAL)
