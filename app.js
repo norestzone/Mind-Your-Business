@@ -18,14 +18,12 @@ function showPopUp(){
     let phaseOne = document.getElementById("phaseOne");
     console.log(phaseOne);
     phaseOne.style.visibility="visible";
-    console.log("I clicked the button!");
+    console.log("I clicked to Phase 1!");
 }
 
 // Good decision & bad decision selections will lead down different paths
 
 // Each phase will add or decrease the company valuation
-
-// Company valuation determines success level
 
 // Track player actions to prevent going through same scenario twice
 
@@ -43,15 +41,15 @@ const phaseOne = {
         }
         // Hide phaseOne and make phaseTwo visible on button click -- Refer to example function below
         // document.addEventListener("DOMContentLoaded", (e) => {
-        //     startGame.addEventListener("click", showPopUp)
+        //     phaseOne.addEventListener("click", showPopUp)
         
         // })
         
         // function showPopUp(){
-        //     let phaseOne = document.getElementById("phaseOne");
-        //     console.log(phaseOne);
+        //     let phaseTwoA = document.getElementById("phaseOne");
+        //     console.log(phaseTwoA);
         //     phaseOne.style.visibility="visible";
-        //     console.log("I clicked the button!");
+        //     console.log("I clicked to Phase 2A!");
         // }
 
         // Include valuation increase or decrease in each phase
