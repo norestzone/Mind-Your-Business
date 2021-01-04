@@ -99,7 +99,7 @@ html, body {
     border: 2px solid black;
 } */
 
-#goodDecision, #badDecision {
+#goodDecisionOne, #badDecisionOne, #goodDecisionTwoA, #badDecisionTwoA, #goodDecisionTwoB, #badDecisionTwoB, #goodDecisionThreeA, #badDecisionThreeA, #goodDecisionThreeB, #badDecisionThreeB, #goodDecisionFourA, #badDecisionFourA, #goodDecisionFourB, #badDecisionFourB, #goodDecisionFiveA, #badDecisionFiveA, #goodDecisionFiveB, #badDecisionFiveB {
     width: 700px;
     height: 75px;
     background-color: black;

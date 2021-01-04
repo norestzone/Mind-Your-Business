@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", (e) => {
     closeButton.addEventListener("click", closePopUp)
-
+    startGame.addEventListener("click", showPopUp)
 })
 
 function closePopUp(){
@@ -8,11 +8,6 @@ function closePopUp(){
 }
 
 // Begin both paths on Phase One when Let's Build is clicked
-
-document.addEventListener("DOMContentLoaded", (e) => {
-    startGame.addEventListener("click", showPopUp)
-
-})
 
 function showPopUp(){
     let phaseOne = document.getElementById("phaseOne");
@@ -29,6 +24,19 @@ function showPopUp(){
 
 // Have a starting investment capital of $______
 
+// *************
+// document.addEventListener("DOMContentLoaded", (e) => {
+//     phaseOne.addEventListener("click", showPopUp)
+
+// })
+
+// function showPopUp(){
+//     let phaseTwoA = document.getElementById("phaseOne");
+//     console.log(phaseTwoA);
+//     phaseOne.style.visibility="visible";
+//     console.log("I clicked to Phase 2A!");
+// }
+// *************
 
 // Phase 1
 const phaseOne = {
@@ -41,19 +49,6 @@ const phaseOne = {
         }
         // Hide phaseOne and make phaseTwo visible on button click -- Refer to example function below
         // If else statement? Use boolean for true or false based on selection?
-        // *************
-        // document.addEventListener("DOMContentLoaded", (e) => {
-        //     phaseOne.addEventListener("click", showPopUp)
-        
-        // })
-        
-        // function showPopUp(){
-        //     let phaseTwoA = document.getElementById("phaseOne");
-        //     console.log(phaseTwoA);
-        //     phaseOne.style.visibility="visible";
-        //     console.log("I clicked to Phase 2A!");
-        // }
-        // *************
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision
     }
