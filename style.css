@@ -79,7 +79,7 @@ html, body {
 
 #goodDecisionOne, #badDecisionOne, #goodDecisionTwoA, #badDecisionTwoA, #goodDecisionTwoB, #badDecisionTwoB, #goodDecisionThreeA, #badDecisionThreeA, #goodDecisionThreeB, #badDecisionThreeB, #goodDecisionFourA, #badDecisionFourA, #goodDecisionFourB, #badDecisionFourB, #goodDecisionFiveA, #badDecisionFiveA, #goodDecisionFiveB, #badDecisionFiveB {
     width: 700px;
-    height: 75px;
+    height: 125px;
     background-color: black;
     color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;

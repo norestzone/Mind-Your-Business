@@ -17,7 +17,7 @@ Experience the beginning of entrepreneurship! This role-playing game will allow 
 <br>
 
 ## Wireframing
-Description
+(file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/Game%20Map%201.png)
 <br>
 <br>
 
