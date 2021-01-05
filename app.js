@@ -99,106 +99,60 @@ const phaseTwoA = () => {
 const phaseTwoB = () => {
     console.log("reached 2B")
 
-    // decisionTwoB: {
-    //     goodDecision: {
-    //         text: "You've made a good decision!", destination: "phaseTwoA"
-    //     },
-    //     badDecision: {
-    //         text: "Oof, bad choice bro...", destination: "phaseThreeB"
-    //     }
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision (STRETCH GOAL)
         // Add business capital as company profits (STRETCH GOAL)
-    }
+}
 
 // Phase 3A
 const phaseThreeA = () => {
-    console.log("reached 2B")
-    // decisionThreeA: {
-    //     goodDecision: {
-    //         text: "You've made a good decision!", destination: "Phase 4A"
-    //     },
-    //     badDecision: {
-    //         text: "Oof, bad choice bro...", destination: "Phase 3B"
-    //     }
+    console.log("reached 3A")
+
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision (STRETCH GOAL)
         // Add business capital as company profits (STRETCH GOAL)
-    }
+}
 
 // Phase 3B
 const phaseThreeB = {
-    decisionThreeB: {
-        goodDecision: {
-            text: "You've made a good decision!", destination: "phaseThreeA"
-        },
-        badDecision: {
-            text: "Oof, bad choice bro...", destination: "endResultLose"
-        }
+
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision (STRETCH GOAL)
         // Add business capital as company profits (STRETCH GOAL)
-    }
 }
 
 // Phase 4A
 const phaseFourA = {
-    decisionFourA: {
-        goodDecision: {
-            text: "You've made a good decision!", destination: "phaseFiveA"
-        },
-        badDecision: {
-            text: "Oof, bad choice bro...", destination: "phaseThreeB"
-        }
+
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision (STRETCH GOAL)
         // Add business capital as company profits (STRETCH GOAL)
-    }
+
 }
 
 // Phase 4B
 const phaseFourB = {
-    decisionFourB: {
-        goodDecision: {
-            text: "You've made a good decision!", destination: "phaseFourA"
-        },
-        badDecision: {
-            text: "Oof, bad choice bro...", destination: "phaseFiveB"
-        }
+
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision (STRETCH GOAL)
         // Add business capital as company profits (STRETCH GOAL)
-    }
+
 }
 
 // Phase 5A
 const phaseFiveA = {
-    decisionFiveA: {
-        goodDecision: {
-            text: "You've made a good decision!", destination: "endResultWin"
-        },
-        badDecision: {
-            text: "Oof, bad choice bro...", destination: "endResultWin"
-        }
+
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision (STRETCH GOAL)
         // Add business capital as company profits (STRETCH GOAL)
-    }
 }
 
 // Phase 5B
 const phaseFiveB = {
-    decisionFiveB: {
-        goodDecision: {
-            text: "You've made a good decision!", destination: "endResultWin"
-        },
-        badDecision: {
-            text: "Oof, bad choice bro...", destination: "endResultWin"
-        }
+
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision (STRETCH GOAL)
         // Add business capital as company profits (STRETCH GOAL)
-    }
 }
 
 // Determine End Game and show endResultWin or endResultLose after going through game phases
@@ -212,4 +166,4 @@ let endResultLose = {
     // Show ending valuation and criticism from investors
 }
 
-// Allow option to restart game
+// Allow option to restart game 
