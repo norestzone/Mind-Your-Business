@@ -24,20 +24,6 @@ function showPopUp(){
 
 // Have a starting investment capital of $______
 
-// *************
-// document.addEventListener("DOMContentLoaded", (e) => {
-//     phaseOne.addEventListener("click", showPopUp)
-
-// })
-
-// function showPopUp(){
-//     let phaseTwoA = document.getElementById("phaseOne");
-//     console.log(phaseTwoA);
-//     phaseOne.style.visibility="visible";
-//     console.log("I clicked to Phase 2A!");
-// }
-// *************
-
 // Phase 1
 const phaseOne = {
     decisionOne: {
