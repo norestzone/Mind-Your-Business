@@ -113,10 +113,6 @@ const phaseTwoB = () => {
         phaseThreeB();
     }
     decisionTwoD.addEventListener("click", bdTwoB)
-
-        // Include valuation increase or decrease in each phase
-        // Deduct business expenses with each decision (STRETCH GOAL)
-        // Add business capital as company profits (STRETCH GOAL)
 }
 
 // Phase 3A
