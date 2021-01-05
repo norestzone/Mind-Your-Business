@@ -154,7 +154,7 @@ const phaseThreeB = () => {
     let decisionThreeD = document.getElementById("badDecisionThreeB")
     const bdThreeD = () => {
         console.log("button clicked");
-        endResultLose();
+        endGameLose();
     }
     decisionThreeD.addEventListener("click", bdThreeD)
 }
@@ -245,12 +245,14 @@ const endGameWin = () => {
     console.log("reached Win Game")
     let endGameWin = document.getElementById("endGameWin")
     endGameWin.style.visibility="visible"
-   // if else statement 
+   // if else statement (STRETCH GOAL)
         // Show ending valuation and success level based on game stats
 }
 
-let endResultLose = {
-    // Show ending valuation and criticism from investors
+const endGameLose = () => {
+    console.log("reached Lose Game")
+    let endGameLose = document.getElementById("endGameLose")
+    endGameLose.style.visibility="visible"
 }
 
 // Allow option to restart game 
