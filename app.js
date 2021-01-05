@@ -147,16 +147,16 @@ const phaseThreeB = () => {
     let decisionThreeC = document.getElementById("goodDecisionThreeB")
     const gdThreeC = () => {
         console.log("button clicked");
-        phaseFourA();
+        phaseThreeA();
     }
-    decisionThreeC.addEventListener("click", gdThreeB)
+    decisionThreeC.addEventListener("click", gdThreeC)
     
     let decisionThreeD = document.getElementById("badDecisionThreeB")
-    const bdThreeA = () => {
+    const bdThreeD = () => {
         console.log("button clicked");
-        phaseThreeB();
+        endResultLose();
     }
-    decisionThreeD.addEventListener("click", bdThreeB)
+    decisionThreeD.addEventListener("click", bdThreeD)
 }
 
 // Phase 4A
@@ -167,7 +167,7 @@ const phaseFourA = () => {
     let decisionFourA = document.getElementById("goodDecisionFourA")
     const gdFourA = () => {
         console.log("button clicked");
-        phaseFourA();
+        phaseFiveA();
     }
     decisionFourA.addEventListener("click", gdFourA)
     
@@ -180,13 +180,43 @@ const phaseFourA = () => {
 }
 
 // Phase 4B
-const phaseFourB = {
-
+const phaseFourB = () => {
+    console.log("reached 4B")
+    let phaseFourB = document.getElementById("phaseFourB")
+    phaseFourB.style.visibility="visible"
+    let decisionFourC = document.getElementById("goodDecisionFourB")
+    const gdFourB = () => {
+        console.log("button clicked");
+        phaseFourA();
+    }
+    decisionFourC.addEventListener("click", gdFourB)
+    
+    let decisionFourD = document.getElementById("badDecisionFourB")
+    const bdFourB = () => {
+        console.log("button clicked");
+        phaseFiveB();
+    }
+    decisionFourD.addEventListener("click", bdFourB)
 }
 
 // Phase 5A
-const phaseFiveA = {
-
+const phaseFiveA = () => {
+    console.log("reached 5A")
+    let phaseFiveA = document.getElementById("phaseFiveA")
+    phaseFiveA.style.visibility="visible"
+    let decisionFiveA = document.getElementById("goodDecisionFiveA")
+    const gdFiveA = () => {
+        console.log("button clicked");
+        endResultWin();
+    }
+    decisionFiveA.addEventListener("click", gdFiveA)
+    
+    let decisionFiveB = document.getElementById("badDecisionFiveA")
+    const bdFiveA = () => {
+        console.log("button clicked");
+        endResultWin();
+    }
+    decisionFiveB.addEventListener("click", bdFiveA)
 }
 
 // Phase 5B
