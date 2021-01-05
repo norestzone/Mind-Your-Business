@@ -131,37 +131,52 @@ const phaseThreeA = () => {
     }
     decisionThreeA.addEventListener("click", gdThreeA)
     
-    let decisionThreeA = document.getElementById("badDecisionThreeA")
+    let decisionThreeB = document.getElementById("badDecisionThreeA")
     const bdThreeA = () => {
         console.log("button clicked");
         phaseThreeB();
     }
-    decisionThreeA.addEventListener("click", bdThreeA)
+    decisionThreeB.addEventListener("click", bdThreeA)
 }
 
 // Phase 3B
-const phaseThreeB = {
+const phaseThreeB = () => {
     console.log("reached 3B")
+    let phaseThreeB = document.getElementById("phaseThreeB")
+    phaseThreeB.style.visibility="visible"
+    let decisionThreeC = document.getElementById("goodDecisionThreeB")
+    const gdThreeC = () => {
+        console.log("button clicked");
+        phaseFourA();
+    }
+    decisionThreeC.addEventListener("click", gdThreeB)
+    
+    let decisionThreeD = document.getElementById("badDecisionThreeB")
+    const bdThreeA = () => {
+        console.log("button clicked");
+        phaseThreeB();
+    }
+    decisionThreeD.addEventListener("click", bdThreeB)
 }
 
 // Phase 4A
 const phaseFourA = {
-    console.log("reached 4A")
+
 }
 
 // Phase 4B
 const phaseFourB = {
-    console.log("reached 4B")
+
 }
 
 // Phase 5A
 const phaseFiveA = {
-    console.log("reached 5A")
+
 }
 
 // Phase 5B
 const phaseFiveB = {
-    console.log("reached 5B")
+
 }
 
 // Determine End Game and show endResultWin or endResultLose after going through game phases
