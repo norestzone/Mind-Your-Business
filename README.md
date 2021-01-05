@@ -16,11 +16,6 @@ Experience the beginning of entrepreneurship! This role-playing game will allow 
 <br>
 <br>
 
-## Wireframing
-(file:///Users/chassyahustla/Desktop/general_assembly/unit_1/homeworks/P1-Project/Game%20Map%201.png)
-<br>
-<br>
-
 ## Tech Used in Game
 * HTML/CSS
 * JavaScript
@@ -28,11 +23,10 @@ Experience the beginning of entrepreneurship! This role-playing game will allow 
 <br>
 
 ## MVP Checklist
-* Render the starting area where business venture begins (COMPLETED)
-* Render scenarios of business based on good and bad decisions, each decision has an effect on the the next phase of business (COMPLETED)
-* Track player actions to prevent going through a scenario twice
-* End state: A series of poor business decisions or a series of good decisions
-* Render end area that shows success or to try again
+* Render the starting area where business venture begins COMPLETED
+* Render scenarios of business based on good and bad decisions, each decision has an effect on the the next phase of business COMPLETED
+* End state: A series of poor business decisions or a series of good decisions COMPLETED
+* Render end area that shows success or to try again COMPLETED
 <br>
 <br>
 
@@ -46,19 +40,19 @@ Experience the beginning of entrepreneurship! This role-playing game will allow 
 <br>
 
 ## Bugs and Other Game Issues
-Description
-<br>
-<br>
-
-## Game Play
-Add images
+* Some paths do not redirect properly
+* Placement of text impacts game experience
 <br>
 <br>
 
 ## Game Planning & Building
-Description
+1. Game mapping was slightly difficult to ensure phases made sense based on decision options.
+2. JavaScript research as well as trial and error took up most of project time. This resulted in less time to focus on css of game.
+3. Tested decision click function after each phase code to ensure proper phases were being shown.
 <br>
 <br>
 
 ## Final Thoughts
-Description
+This project was a huge learning experience and really challenged the skills I've acquired in class so far. My main takeaways is to not overcomplicate the process and implement functions in a way that makes more sense so I can fully understand and manipulate as needed.
+
+A lot of time could have been saved if I didn't refresh every time I wrote a new line of code, which could have been allocated in other ways to make the game more advanced. 
