@@ -160,8 +160,23 @@ const phaseThreeB = () => {
 }
 
 // Phase 4A
-const phaseFourA = {
-
+const phaseFourA = () => {
+    console.log("reached 4A")
+    let phaseFourA = document.getElementById("phaseFourA")
+    phaseFourA.style.visibility="visible"
+    let decisionFourA = document.getElementById("goodDecisionFourA")
+    const gdFourA = () => {
+        console.log("button clicked");
+        phaseFourA();
+    }
+    decisionFourA.addEventListener("click", gdFourA)
+    
+    let decisionFourB = document.getElementById("badDecisionFourA")
+    const bdFourA = () => {
+        console.log("button clicked");
+        phaseThreeB();
+    }
+    decisionFourB.addEventListener("click", bdFourA)
 }
 
 // Phase 4B
