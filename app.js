@@ -72,15 +72,15 @@ const phaseTwoA = () => {
     }
     decisionTwoA.addEventListener("click", gdTwo)
     
-    let phaseTwoB = document.getElementById("phaseTwoB")
-    phaseTwoB.style.visibility="visible"
+    // let phaseTwoB = document.getElementById("phaseTwoB")
+    // phaseTwoB.style.visibility="visible"
     let decisionTwoB = document.getElementById("badDecisionTwoA")
     const bdTwo = () => {
         console.log("button clicked");
         phaseTwoB();
         // phaseThreeA.style.visibility="visible";
     }
-    decisionTwoA.addEventListener("click", bdTwo)
+    decisionTwoB.addEventListener("click", bdTwo)
 
     // decisionTwoA: {
         //     goodDecision: {
@@ -98,6 +98,8 @@ const phaseTwoA = () => {
 // Phase 2B
 const phaseTwoB = () => {
     console.log("reached 2B")
+    let phaseTwoB = document.getElementById("phaseTwoB")
+    phaseTwoB.style.visibility="visible"
 
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision (STRETCH GOAL)
