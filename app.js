@@ -143,7 +143,7 @@ const phaseThreeB = () => {
     let decisionThreeC = document.getElementById("goodDecisionThreeB")
     const gdThreeC = () => {
         console.log("button clicked");
-        phaseThreeA();
+        phaseFourB();
     }
     decisionThreeC.addEventListener("click", gdThreeC)
     
