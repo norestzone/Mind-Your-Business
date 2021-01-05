@@ -220,13 +220,31 @@ const phaseFiveA = () => {
 }
 
 // Phase 5B
-const phaseFiveB = {
-
+const phaseFiveB = () => {
+    console.log("reached 5B")
+    let phaseFiveB = document.getElementById("phaseFiveB")
+    phaseFiveB.style.visibility="visible"
+    let decisionFiveC = document.getElementById("goodDecisionFiveB")
+    const gdFiveB = () => {
+        console.log("button clicked");
+        endResultWin();
+    }
+    decisionFiveC.addEventListener("click", gdFiveB)
+    
+    let decisionFiveD = document.getElementById("badDecisionFiveB")
+    const bdFiveB = () => {
+        console.log("button clicked");
+        endResultWin();
+    }
+    decisionFiveD.addEventListener("click", bdFiveB)
 }
 
 // Determine End Game and show endResultWin or endResultLose after going through game phases
 
-let endResultWin = {
+const endResultWin = () => {
+    console.log("reached Win Game")
+    let phaseFiveB = document.getElementById("phaseFiveB")
+    phaseFiveB.style.visibility="visible"
    // if else statement 
         // Show ending valuation and success level based on game stats
 }
