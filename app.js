@@ -100,6 +100,19 @@ const phaseTwoB = () => {
     console.log("reached 2B")
     let phaseTwoB = document.getElementById("phaseTwoB")
     phaseTwoB.style.visibility="visible"
+    let decisionTwoC = document.getElementById("goodDecisionTwoB")
+    const gdTwoB = () => {
+        console.log("button clicked");
+        phaseTwoA();
+    }
+    decisionTwoC.addEventListener("click", gdTwoB)
+    
+    let decisionTwoD = document.getElementById("badDecisionTwoB")
+    const bdTwoB = () => {
+        console.log("button clicked");
+        phaseThreeB();
+    }
+    decisionTwoD.addEventListener("click", bdTwoB)
 
         // Include valuation increase or decrease in each phase
         // Deduct business expenses with each decision (STRETCH GOAL)
