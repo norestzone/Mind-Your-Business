@@ -14,7 +14,7 @@ Experience the beginning of entrepreneurship! This role-playing game will allow 
 <br>
 <br>
 ## Wireframing
-
+Description
 <br>
 <br>
 ## Tech Used in Game
@@ -28,3 +28,27 @@ Experience the beginning of entrepreneurship! This role-playing game will allow 
 * Track player actions to prevent going through a scenario twice
 * End state: A series of poor business decisions or a series of good decisions
 * Render end area that shows success or to try again
+<br>
+<br>
+## Stretch Goals
+* Have player respond to sudden challenges
+* Track player success with amount of money generated
+* Add sounds that enhance the user experience
+* Attempt animation or compelling visuals
+* Have more options for business ventures
+<br>
+<br>
+## Bugs and Other Game Issues
+Description
+<br>
+<br>
+## Game Play
+Add images
+<br>
+<br>
+## Game Planning & Building
+Description
+<br>
+<br>
+## Final Thoughts
+Description
