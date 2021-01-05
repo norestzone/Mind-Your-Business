@@ -122,52 +122,46 @@ const phaseTwoB = () => {
 // Phase 3A
 const phaseThreeA = () => {
     console.log("reached 3A")
-
-        // Include valuation increase or decrease in each phase
-        // Deduct business expenses with each decision (STRETCH GOAL)
-        // Add business capital as company profits (STRETCH GOAL)
+    let phaseThreeA = document.getElementById("phaseThreeA")
+    phaseThreeA.style.visibility="visible"
+    let decisionThreeA = document.getElementById("goodDecisionThreeA")
+    const gdThreeA = () => {
+        console.log("button clicked");
+        phaseFourA();
+    }
+    decisionThreeA.addEventListener("click", gdThreeA)
+    
+    let decisionThreeA = document.getElementById("badDecisionThreeA")
+    const bdThreeA = () => {
+        console.log("button clicked");
+        phaseThreeB();
+    }
+    decisionThreeA.addEventListener("click", bdThreeA)
 }
 
 // Phase 3B
 const phaseThreeB = {
-
-        // Include valuation increase or decrease in each phase
-        // Deduct business expenses with each decision (STRETCH GOAL)
-        // Add business capital as company profits (STRETCH GOAL)
+    console.log("reached 3B")
 }
 
 // Phase 4A
 const phaseFourA = {
-
-        // Include valuation increase or decrease in each phase
-        // Deduct business expenses with each decision (STRETCH GOAL)
-        // Add business capital as company profits (STRETCH GOAL)
-
+    console.log("reached 4A")
 }
 
 // Phase 4B
 const phaseFourB = {
-
-        // Include valuation increase or decrease in each phase
-        // Deduct business expenses with each decision (STRETCH GOAL)
-        // Add business capital as company profits (STRETCH GOAL)
-
+    console.log("reached 4B")
 }
 
 // Phase 5A
 const phaseFiveA = {
-
-        // Include valuation increase or decrease in each phase
-        // Deduct business expenses with each decision (STRETCH GOAL)
-        // Add business capital as company profits (STRETCH GOAL)
+    console.log("reached 5A")
 }
 
 // Phase 5B
 const phaseFiveB = {
-
-        // Include valuation increase or decrease in each phase
-        // Deduct business expenses with each decision (STRETCH GOAL)
-        // Add business capital as company profits (STRETCH GOAL)
+    console.log("reached 5B")
 }
 
 // Determine End Game and show endResultWin or endResultLose after going through game phases
